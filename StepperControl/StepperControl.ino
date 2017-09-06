@@ -1,7 +1,7 @@
 int Distance = 0;  // Grabar el numero de pasos que hemos dado
 
 // Define our maximum and minimum speed in steps per second (scale pot to these)
-#define RPMS 300.0
+#define RPMS 100.0
 #define STEP_PIN                2
 #define DIRECTION_PIN           3
 #define GO_PIN                  10
@@ -36,7 +36,7 @@ void loop() {
   Distance = Distance + 1;   // record this step
  
   // Revisar si estamos al final de la secuencia de pasos
-  if (Distance == 1500)
+  if (Distance == 100)
   {
     // We are! Reverse direction (invert DIR signal)
     if (digitalRead(DIRECTION_PIN) == LOW)

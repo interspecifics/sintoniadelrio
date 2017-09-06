@@ -1,4 +1,4 @@
-/****************************************************************************** 
+/******************************************************************************
 
 [HIGH/LOW functionality ]
 ______________________________
@@ -31,7 +31,7 @@ void setup() {
   pinMode(dir, OUTPUT);
   pinMode(MS1, OUTPUT);
   pinMode(MS2, OUTPUT);
-  pinMode(EN, OUTPUT);        
+  pinMode(EN, OUTPUT);
   resetEDPins(); //Set step, direction, microstep and enable pins to default states
   Serial.begin(9600); //Open Serial connection for debugging
   Serial.println("Iniciar control del motor");
@@ -145,14 +145,14 @@ void ForwardBackwardStep()
     if(state == HIGH)
     {
       digitalWrite(dir, LOW); // adelante      dir.runSpeed();
-    
+
     }
     else if(state ==LOW)
     {
       digitalWrite(dir,HIGH); // atras
-   
+
     }
-    
+
     for(y=1; y<1000; y++)
     {
       digitalWrite(stp,HIGH); //Trigger one step
