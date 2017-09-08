@@ -15,9 +15,9 @@ ______________________________
 //Declare pin functions 
 #define stp 2 // Logic Input. transition from LOW to HIGH will trigger the motor to step forward one step
 #define dir 3 // Logic Input. This pin determines the direction of motor rotation
-#define MS1 4 // Logic Input. HIGH/LOW functionality
-#define MS2 5 // Logic Input. HIGH/LOW functionality
-#define EN  6 // Enables the FET functionality within the motor driver. Set to LOW to enable FETs allowing motor control
+#define MS1 7 // Logic Input. HIGH/LOW functionality
+#define MS2 4 // Logic Input. HIGH/LOW functionality
+#define EN  5 // Enables the FET functionality within the motor driver. Set to LOW to enable FETs allowing motor control
 
 
 //Declare variables for functions

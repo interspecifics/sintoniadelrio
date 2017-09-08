@@ -10,23 +10,23 @@ cuando una gota de agua cae sobre el sensor
 
 
  -----------------------------
- DRIVER SETUP:
+ DRIVER SETUP x TEENSY:
 
- DRIVER 1: TEENSY 1
+ --- DRIVER 1:
  STEP = 2
  DIR = 3
  MS1 = 7
  MS2 = 4
  ENABLE = 5
 
- DRIVER 2 TEENSY 1
+ --- DRIVER 2
  STEP = 11
  DIR = 6
  MS1 = 8
  MS2 = 9
  ENABLE = 10
 
- DRIVER 3 TEENSY 1
+ --- DRIVER 3
 
  STEP = 12
  DIR = 23
