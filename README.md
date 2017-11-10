@@ -4,11 +4,11 @@
   DRIVER SETUP POR TEENSY:
  
  --- DRIVER 1 PINS A TEENSY
- STEP = 2
- DIR = 3
- MS1 = 7
- MS2 = 4
- ENABLE = 5
+ - STEP = 2
+ - DIR = 3
+ - MS1 = 7
+ - MS2 = 4
+ - ENABLE = 5
 
 --- DRIVER 2 PINS A TEENSY
  STEP = 11
