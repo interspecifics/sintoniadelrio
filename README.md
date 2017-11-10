@@ -24,6 +24,7 @@ DRIVER 3 | PINS A TEENSY
 - MS2 = 22
 - ENABLE = 21
 
+#Hardware 
 - 15 Steppers (https://www.adafruit.com/product/324)
 - easy driver (https://www.sparkfun.com/products/12779)
 - teensy 3.2
