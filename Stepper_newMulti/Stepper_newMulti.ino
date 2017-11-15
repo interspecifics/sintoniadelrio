@@ -146,12 +146,9 @@ void loop() {
 
 // ----- -------- ----------- READ-SENSORS ROUTINES
 void readSensor_1(){
-  dataSensor_1 = int(random(4));
-  /*
   for sensors operation this should be replaced with:
-  int dataS1 = analogRead(A1);
+  int dataS1 = analogRead(A0);
   dataSensor_1 = map(dataS1, 0, 1024, 0, 3);
-  */
   endBeat_1 = false;
   // select case
   switch(dataSensor_1){
@@ -171,12 +168,9 @@ void readSensor_1(){
 }
 
 void readSensor_2(){
-  dataSensor_2 = int(random(4));
-  /*
   for sensors operation this should be replaced with:
-  int dataS2 = analogRead(A2);
+  int dataS2 = analogRead(A0);
   dataSensor_2 = map(dataS2, 0, 1024, 0, 3);
-  */
   endBeat_2 = false;
   // select case
   switch(dataSensor_2){
@@ -196,12 +190,10 @@ void readSensor_2(){
 }
 
 void readSensor_3(){
-  dataSensor_3 = int(random(4));
-  /*
   for sensors operation this should be replaced with:
-  int dataS3 = analogRead(A3);
-  dataSensor_3 = map(dataS3, 0, 1024, 0, 3);
-  */
+  int dataS3 = analogRead(A0);
+  dataSensor_3 = map(dataS3, 0, 1024,  0, 3);
+  
   endBeat_3 = false;
   // select case
   switch(dataSensor_3){
