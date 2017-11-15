@@ -84,7 +84,7 @@ void loop() {
         readSensor_1();
       }
       distance_1 = 0;
-      delay(125);
+      delay(20);
     } // end dirchange
   } // end step
 
@@ -110,7 +110,7 @@ void loop() {
         readSensor_2();
       }
       distance_2 = 0;
-      delay(125);
+      delay(20);
     } // end dirchange
   } // end step
 
@@ -136,7 +136,7 @@ void loop() {
         readSensor_3();
       }
       distance_3 = 0;
-      delay(125);
+      delay(20);
     } // end dirchange
   } // end step
 
