@@ -146,7 +146,6 @@ void loop() {
 
 // ----- -------- ----------- READ-SENSORS ROUTINES
 void readSensor_1(){
-  for sensors operation this should be replaced with:
   int dataS1 = analogRead(A0);
   dataSensor_1 = map(dataS1, 0, 1024, 0, 3);
   endBeat_1 = false;
@@ -168,7 +167,6 @@ void readSensor_1(){
 }
 
 void readSensor_2(){
-  for sensors operation this should be replaced with:
   int dataS2 = analogRead(A0);
   dataSensor_2 = map(dataS2, 0, 1024, 0, 3);
   endBeat_2 = false;
@@ -190,7 +188,6 @@ void readSensor_2(){
 }
 
 void readSensor_3(){
-  for sensors operation this should be replaced with:
   int dataS3 = analogRead(A0);
   dataSensor_3 = map(dataS3, 0, 1024,  0, 3);
   
