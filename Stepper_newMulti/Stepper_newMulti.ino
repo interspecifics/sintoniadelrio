@@ -16,11 +16,11 @@
 
 #define STP_PIN_1   2
 #define DIR_PIN_1   3
-#define STP_PIN_2   6
-#define DIR_PIN_2   7
-#define STP_PIN_3   9
-#define DIR_PIN_3   10
-
+#define STP_PIN_2   11
+#define DIR_PIN_2   6
+#define STP_PIN_3   12
+#define DIR_PIN_3   23
+  
 #define MICROSECONDS_PER_MICROSTEP   375
 
 uint32_t currentTime = 0;
