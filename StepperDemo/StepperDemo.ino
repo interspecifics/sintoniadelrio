@@ -41,7 +41,7 @@ void setup() {
   Serial.println("1. Giro el motor en micropasos.");
   Serial.println("2. Reversa en micropasos.");
   Serial.println("3. Girar a 1/8 de micropasos.");
-  Serial.println("4. Paso completo hacia adelante y reversa.");
+  Serial.println("4. Paso completo hacia adelante y reversa.")
   Serial.println();
 }
 
